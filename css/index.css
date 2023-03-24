@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(to right, #021875, #0f54b2);
+  background: #0f54b2;
 }
 
 .navbar-brand {
@@ -8,8 +8,9 @@
 
 .nav-item {
   font-size: 20px;
+  font-weight: 600;
 }
 
 .page-footer {
-  background: linear-gradient(to right, #021875, #0f54b2);
+  background: #0f54b2;
 }
