@@ -1,0 +1,15 @@
+.navbar {
+  background: linear-gradient(to right, #021875, #0f54b2);
+}
+
+.navbar-brand {
+  font-size: 16px;
+}
+
+.nav-item {
+  font-size: 20px;
+}
+
+.page-footer {
+  background: linear-gradient(to right, #021875, #0f54b2);
+}
