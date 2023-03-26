@@ -94,7 +94,7 @@
 
 			<!--First slide-->
 			<div class="carousel-item active">
-				<div class="view" style="background-image: url('http://mmbiz.qpic.cn/mmbiz_jpg/tjopPszbHedwdxkl4XMqFZYQoCWblJEdX6icibPwiaI85GAZ8TJlDtIUWPicZJsMicF6wdO5c6WjibQypd7GQZqGrvGw/0?wx_fmt=jpeg'); background-repeat: no-repeat; background-size: cover;">
+				<div id="slide-view" class="view" style="background-repeat: no-repeat; background-size: cover;">
 				</div>
 			</div>
 			<!--/First slide-->
@@ -191,6 +191,9 @@
 	<script type="text/javascript">
 		// Animations initialization
 		new WOW().init();
+		$("#slide-view").css({
+			"background-image": "url(" + index_sider + ")"
+		});
 	</script>
 </body>
 
