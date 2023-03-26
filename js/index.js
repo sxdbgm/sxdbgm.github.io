@@ -1,12 +1,12 @@
 new WOW().init();
 
-try {
-    $("#slide-view").css({
-        "background-image": "url(" + INDEX_SIDER_BASE64 + ")"
-    });
-} catch (error) {
-   console.log(error); 
-}
+// try {
+//     $("#slide-view").css({
+//         "background-image": "url(" + INDEX_SIDER_BASE64 + ")"
+//     });
+// } catch (error) {
+//    console.log(error); 
+// }
 
 try {
     $("#index-img-1").attr("src", INDEX_1);
