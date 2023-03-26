@@ -18,3 +18,15 @@
 .t-c {
   text-align: center;
 }
+
+.product-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+}
+
+.product-img img {
+  width: 30%;
+}
